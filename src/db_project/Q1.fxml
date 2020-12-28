@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="db_project.Q1Controller">
+   <children>
+      <TableView fx:id="table" layoutX="26.0" layoutY="27.0" prefHeight="468.0" prefWidth="621.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="147.0" text="Cenima id" />
+          <TableColumn fx:id="name" prefWidth="133.0" text="Cenima name" />
+            <TableColumn fx:id="ticket" prefWidth="167.0" text="Total ticket" />
+            <TableColumn fx:id="total" prefWidth="175.0" text="total sum" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="32.0" layoutY="563.0" onAction="#back" style="-fx-background-color: darkgray;" text="Back" />
+   </children>
+</AnchorPane>

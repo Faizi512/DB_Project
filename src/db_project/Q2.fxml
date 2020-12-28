@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="453.0" prefWidth="641.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="db_project.Q2Controller">
+   <children>
+      <TableView fx:id="table" layoutX="7.0" prefHeight="283.0" prefWidth="289.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="93.0" text="Client ID" />
+          <TableColumn fx:id="name" prefWidth="90.0" text="NAME" />
+            <TableColumn fx:id="total" prefWidth="103.0" text="TOTAL" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="24.0" layoutY="403.0" onAction="#back" style="-fx-background-color: darkgray;" text="Back" />
+   </children>
+</AnchorPane>
